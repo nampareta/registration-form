@@ -1,0 +1,8 @@
+registration_form.RegistrationForm:
+  path: '/register'
+  defaults:
+    _form: '\Drupal\registration_form\Form\RegistrationForm'
+    _title: 'STEP 1:CAMPER INFORMATION'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
